@@ -1,4 +1,3 @@
-import { resolve } from "styled-jsx/css";
 
 const fetchData = async (parametro = "") => {
   const peticion = await fetch(

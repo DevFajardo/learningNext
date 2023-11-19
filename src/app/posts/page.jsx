@@ -1,5 +1,5 @@
 import PostCard from "@/components/PostCard";
-import fetchData from "./peticion/fetchData";
+import fetchData from "@/app/posts/peticion/fetchData";
 
 async function Posts() {
   const post = await fetchData();

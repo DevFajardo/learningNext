@@ -1,4 +1,4 @@
-import fetchData from "../peticion/fetchData";
+import fetchData from "@/app/posts/peticion/fetchData";
 import PostCard from "@/components/PostCard";
 import Posts from "../page";
 import { Suspense } from "react";
@@ -18,3 +18,4 @@ const page = async ({ params }) => {
 };
 
 export default page;
+//tambien se puede usar useParams()

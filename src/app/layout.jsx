@@ -1,5 +1,5 @@
 import { Roboto } from "next/font/google";
-import NavBar from "../components/NavBar";
+import NavBar from "@/components/NavBar";
 
 export const metadata = {
   title: "Create Next App",
